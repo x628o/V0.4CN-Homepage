@@ -1,3 +1,13 @@
+header {
+        display:flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        min-height: 200px;
+        background-color: midnightblue;
+        padding: 25px 5%;
+    
+}
+
 .logo {
     cursor: pointer;
     width: 130px;
@@ -11,17 +21,6 @@ ul {
     list-style-type: none;
     gap: 30px;
 }
-
-header {
-        display:flex;
-        align-items: flex-start;
-        justify-content: space-between;
-        min-height: 125px;
-        background-color: midnightblue;
-        padding: 25px 5%;
-    
-}
-
 
 .right-links li {
      display: inline-block;
@@ -51,7 +50,9 @@ header {
 
 .footer {
            display:flex;
-           background-color: yellow;
+           background: white;
+           height: 150px;
+           width: 150px;
 }
 
 * {
