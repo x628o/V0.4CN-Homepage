@@ -1,3 +1,10 @@
+.logo {
+    cursor: pointer;
+    width: 130px;
+    height: 80px;
+
+
+}
 
 ul {
     display: flex;
@@ -5,29 +12,35 @@ ul {
     gap: 30px;
 }
 
-a, .logo { 
-    font-size: 17px;
-    color: tomato;
-    text-decoration: none;
-    padding: 10px;
-}
-
-
 header {
         display:flex;
         align-items: flex-start;
         justify-content: space-between;
         min-height: 125px;
         background-color: midnightblue;
+        padding: 25px 5%;
     
 }
 
 
 .right-links li {
      display: inline-block;
-     padding: 0px 0px;      
-                
+     padding: 0px 15px;    
+     list-style: none;
 
+}
+
+.right-links li a {
+    transition: all 0.3s ease 0s;
+    font-weight: 400;
+    font-size: 17px;
+    color: tomato;
+    text-decoration: none;
+
+}
+
+.right-links li a:hover {
+    color: lavender;
 }
 
 .sidemiddle {
@@ -45,5 +58,5 @@ header {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background:black;
+    background: #24242a;
 }
