@@ -9,10 +9,9 @@ header {
 }
 
 .logo {
-    cursor: pointer;
+      cursor: pointer;
     width: 130px;
-    height: 80px;
-
+    height: 80px; 
 
 }
 
@@ -39,25 +38,32 @@ ul {
 }
 
 .right-links li a:hover {
-    color: lavender;
+    color: green;
 }
 
 .sidemiddle {
-    height: 250px;
+    display: flex; 
+    min-height: 200px;
     background-color: teal;
 
 }
 
 .footer {
-           display:flex;
-           background: white;
-           height: 150px;
-           width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;   
+    background-color: gray;
+    min-height: 200px;
+}
+
+.footer li a {
+    text-decoration: none;
+    font-size: 24px;
+    color: black;  
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background: #24242a;
 }
